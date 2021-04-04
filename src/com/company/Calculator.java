@@ -2,6 +2,7 @@ package com.company;
 
 public class Calculator {
     public static String ExpRPN(String Exp){
+        String current="";
         return null;
     }
 
