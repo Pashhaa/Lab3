@@ -1,6 +1,8 @@
 package com.company;
 
-public class MyStack {
+import java.util.Vector;
+
+public class MyStack<E> extends Vector<E> {
     private int maxSize;
     private int[] stackArray;
     private int top;
